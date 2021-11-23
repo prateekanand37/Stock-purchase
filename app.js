@@ -16,22 +16,22 @@ function submitHandler(){
 function calculateProfitLoss(initial,quantity,current){
     
     if(initial>current ){
-        // loss
+        
         let loss=(initial-current)*quantity
         let lossPercentage=(loss / initial)*100
-        console.log("clicked")
+        
 
         showOutput(`Loss= ${loss} Loss  percentage =${lossPercentage}%`)
     }
     else if(initial<current){
-        // profit
+       
         let profit=(current-initial)*quantity
         profitPercentage=(profit/initial)*100
         showOutput(`Profit= ${profit}  .       Profit  percentage =${profitPercentage}%`)
-        console.log("hello")
+        
     }
     else{
-        // equal
+        
     }
 
 }
