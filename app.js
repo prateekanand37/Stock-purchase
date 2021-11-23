@@ -27,7 +27,7 @@ function calculateProfitLoss(initial,quantity,current){
        
         let profit=(current-initial)*quantity
         profitPercentage=(profit/initial)*100
-        showOutput(`Profit= ${profit}  .       Profit  percentage =${profitPercentage}%`)
+        showOutput(`Profit= ${profit} Profit  percentage =${profitPercentage}%`)
         
     }
     else{
